@@ -26,7 +26,10 @@ function addTodo() {
     var editText = document.createTextNode("E d i t")
     editButton.appendChild(editText)
     li.appendChild(editButton)
-    editButton.setAttribute("onclick", "editItem(this)")
+   
+    editButton.setAttribute("class","button btn-outline-danger btn")
+    
+    editButton.setAttribute("onclick","editItem(this)")
 
 
     //    ****Delete Button****
@@ -40,7 +43,8 @@ function addTodo() {
     // inserting button in <li>
     li.appendChild(deleteButton)
     // setting attribute
-    deleteButton.setAttribute("class", "button")
+              
+    deleteButton.setAttribute("class","button btn-outline-danger btn") 
     //* passing whole button to the function "deleteTask" 
     deleteButton.setAttribute("onclick", "deleteTask(this)")
 }

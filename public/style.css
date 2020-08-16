@@ -1,3 +1,22 @@
 body{
     text-align: center;
 }
+li{
+    list-style: none;
+    
+}
+h1{
+    font-family: cursive;
+    color: white !important;
+    background-color: #B00020!important;
+    padding: 10px;
+    font-size: 50px;
+
+}
+.button{
+    margin: 10px !important;
+    margin-left: 100px !important;
+}
+.btn-outline-dark{
+    background-color: white !important;
+}
